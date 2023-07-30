@@ -1,0 +1,30 @@
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 10rem;
+    color: rgb(233, 203, 166);
+}
+
+.button button{
+    margin-left: 20rem;
+    background-color: cadetblue;
+    width: 5rem;
+    height: 2rem;
+    font-size: 1.1rem;
+    color: antiquewhite;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.container{
+    display: flex;
+    width: auto;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.options{
+    color: aquamarine;
+    text-decoration: none;
+}

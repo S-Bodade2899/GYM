@@ -1,0 +1,52 @@
+
+.navWrapper{
+    display: none;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:linear-gradient(to right, rgb(49, 27, 23), rgb(141, 83, 50), rgb(138, 84, 101));
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+
+.iconWrapper{
+    padding-right: 2rem;
+    color: rgb(73, 55, 65);
+    font-size: 2rem;
+}
+
+.logo .btn{
+    background-color: transparent;
+    border: none;
+}
+
+
+@media screen and (min-width:1024px) {
+
+    .header{
+        height: calc(100rem/16) ;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+
+    .navWrapper{
+        flex: 5;
+        display: unset;
+    }
+
+    .iconWrapper{
+        display: none;
+    }
+
+    
+}

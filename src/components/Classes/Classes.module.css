@@ -1,0 +1,95 @@
+.heading{
+    background: grey url("https://t3.ftcdn.net/jpg/03/51/22/22/240_F_351222288_OxSyPoUFEcVXqcQe4Zmq9FELex6xcf7r.jpg");
+    background-blend-mode: darken;
+    height: 15rem;
+    background-size: 100vw 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(17, 227, 206);
+    font-size: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin-top: 6rem;
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 5rem 0 0 7rem;
+}
+
+.para h1{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.para p{
+    font-size: 1.2rem;
+}
+
+.container1{
+    display: flex;
+}
+
+.container2{
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.fitness{
+    width: 50%;
+    height: 30rem;
+    margin-top: 5rem;
+}
+
+.fitness img{
+    width: 80%;
+    height: 70%;
+    border-radius: 2rem;
+}
+
+.fitness p{
+    width: 80%;
+    margin-left: 5rem;
+}
+
+.fitness h2{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 0.3rem 0.4rem 0 rgb(12, 113, 93);
+    width: fit-content;
+    margin-left: 36%;
+}
+
+@media screen and (max-width: 1000px){
+
+    .container1, .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fitness img{
+        height: 50%;
+        width: 100%;
+        border-radius: 1rem;
+    }
+
+    .fitness h2{
+        font-size: 1.3rem;
+    }
+
+    .fitness{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fitness p{
+        margin-left: 3rem;
+    }
+
+}
