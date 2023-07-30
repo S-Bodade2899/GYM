@@ -13,38 +13,38 @@ const Footer = () => {
             <div className={styles.footercol}>
                 <h4>Healthy Living</h4>
                 <ul>
-                    <li><a href='#'></a>Nutrition Tips</li>
-                    <li><a href='#'></a>Fitness Advice</li>
-                    <li><a href='#'></a>Stress Reduction</li>
-                    <li><a href='#'></a>Disclaimer</li>
+                    <li><a></a>Nutrition Tips</li>
+                    <li><a></a>Fitness Advice</li>
+                    <li><a></a>Stress Reduction</li>
+                    <li><a></a>Disclaimer</li>
                 </ul>
             </div>
             <div className={styles.footercol}>
                 <h4>Services</h4>
                 <ul>
-                    <li><a href='#'></a>Functional Training</li>
-                    <li><a href='#'></a>Group Classes</li>
-                    <li><a href='#'></a>Strength Training</li>
-                    <li><a href='#'></a>Functional Training</li>
-                    <li><a href='#'></a>Fitness Assessments</li>
+                    <li><a></a>Functional Training</li>
+                    <li><a></a>Group Classes</li>
+                    <li><a></a>Strength Training</li>
+                    <li><a></a>Functional Training</li>
+                    <li><a></a>Fitness Assessments</li>
                 </ul>
             </div>
             <div className={styles.footercol}>
                 <h4>Programmes</h4>
                 <ul>
-                    <li><a href='#'></a>Group Fitness Classes</li>
-                    <li><a href='#'></a>Personal Training</li>
-                    <li><a href='#'></a>Weight Loss Programs</li>
-                    <li><a href='#'></a>Senior Fitness</li>
+                    <li><a></a>Group Fitness Classes</li>
+                    <li><a></a>Personal Training</li>
+                    <li><a></a>Weight Loss Programs</li>
+                    <li><a></a>Senior Fitness</li>
                 </ul>
             </div>
             <div className={styles.footercol}>
                 <h4>Follow Us</h4>
                 <div className={styles.sociallinks}>
-                <a href='#'><FacebookRoundedIcon/></a>
-                <a href='#'><InstagramIcon/></a>
-                <a href='#'><TwitterIcon/></a>
-                <a href='#'><LinkedInIcon/></a>
+                <a><FacebookRoundedIcon/></a>
+                <a><InstagramIcon/></a>
+                <a><TwitterIcon/></a>
+                <a><LinkedInIcon/></a>
                 </div>
             </div>
         </div>
