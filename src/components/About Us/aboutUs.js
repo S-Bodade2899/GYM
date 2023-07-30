@@ -9,7 +9,7 @@ function AboutUs() {
       </div>
 
       <div className={styles.img}>
-        <img src="https://images.pexels.com/photos/2247179/pexels-photo-2247179.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <img src="https://images.pexels.com/photos/2247179/pexels-photo-2247179.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
       </div>
 
       <div className={styles.text}>
