@@ -22,20 +22,20 @@ const Footer = () => {
             <div className={styles.footercol}>
                 <h4>Services</h4>
                 <ul>
-                    <li><a></a>Functional Training</li>
-                    <li><a></a>Group Classes</li>
-                    <li><a></a>Strength Training</li>
-                    <li><a></a>Functional Training</li>
-                    <li><a></a>Fitness Assessments</li>
+                    <li>Functional Training</li>
+                    <li>Group Classes</li>
+                    <li>Strength Training</li>
+                    <li>Functional Training</li>
+                    <li>Fitness Assessments</li>
                 </ul>
             </div>
             <div className={styles.footercol}>
                 <h4>Programmes</h4>
                 <ul>
-                    <li><a></a>Group Fitness Classes</li>
-                    <li><a></a>Personal Training</li>
-                    <li><a></a>Weight Loss Programs</li>
-                    <li><a></a>Senior Fitness</li>
+                    <li>Group Fitness Classes</li>
+                    <li>Personal Training</li>
+                    <li>Weight Loss Programs</li>
+                    <li>Senior Fitness</li>
                 </ul>
             </div>
             <div className={styles.footercol}>
