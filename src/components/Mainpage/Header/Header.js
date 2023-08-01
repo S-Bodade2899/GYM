@@ -16,10 +16,6 @@ export default function Header() {
     setIsNavMobileVisible(false);
   }
 
-  // function handListOpening () {
-  //     setIsNavMobileVisible(!isNavMobileVisible)
-  // }
-
   if (isNavMobileVisible) {
     return <NavMobile closeFunction={Closelist} />;
   }
