@@ -22,11 +22,15 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
 .text{
     width: 40%;
     text-align: left;
     margin-top: 5rem;
-    margin-left: 50rem;
     line-height: 1.3rem;
 }
 
@@ -67,8 +71,9 @@
 }
 
 .cards .card2{
-    margin-left: 17rem;
+    margin-left: 10rem;
     width: 28rem;
+    height: 18rem;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
@@ -93,4 +98,51 @@
 .story h1{
     font-size: 2.5rem;
 }
+
+/*Module CSS*/
+@media screen and (max-width: 1024px){
+
+    .heading{
+        margin-top: unset;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text{
+        /* margin-left: 10rem; */
+        width: 60%;
+    }
+
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards .card1{
+        margin-bottom: 5rem;
+    }
+
+    .cards .card2{
+        margin-left: 5rem;
+    }
+
+    .story{
+        margin-left: 3rem;
+    }
+
+    .story p{
+      font-size: 0.9rem;  
+    }
+
+    .story h1{
+        font-size: 1.5rem;
+    }
+}
+
 
