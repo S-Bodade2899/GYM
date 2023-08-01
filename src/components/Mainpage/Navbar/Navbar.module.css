@@ -25,6 +25,23 @@
 }
 
 .options{
-    color: aquamarine;
+    color: white;
     text-decoration: none;
+    font-weight: 600;
+    font-size: 1.3rem;
+    transition: 0.3s ease-in-out;
+}
+
+.options:hover{
+    color: chartreuse;
+}
+
+.options:hover::after{
+    content: "";
+    width: 2rem;
+    height: 2px;
+    background: chartreuse;
+    position: absolute;
+    bottom: 2rem;
+}
 }
