@@ -8,6 +8,7 @@ function AboutUs() {
         <h1>About Us</h1>
       </div>
 
+     <div classname={styles.container}>
       <div className={styles.img}>
         <img src="https://images.pexels.com/photos/2247179/pexels-photo-2247179.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
       </div>
@@ -25,6 +26,7 @@ function AboutUs() {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <button>Join Now</button>
+      </div>
       </div>
 
       <div className={styles.cards}>
