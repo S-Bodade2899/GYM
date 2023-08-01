@@ -218,7 +218,10 @@
 }
 
 .packeges{
-    margin: 5rem 0 0 25rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 30vw;
     width: 50vw;
 }
 
@@ -327,6 +330,29 @@
   
 @media screen and (max-width:1024px){
 
+    .container{
+        margin-top: unset;
+        right: 0;
+        left: 0;
+    }
+
+    .container img{
+        width: 20rem;
+        height: 32rem;
+    }
+
+    .text{
+        height: 32rem;
+    }
+
+    .text .statmnt{
+        font-size: 2rem;
+    }
+
+    .text .statmnt1{
+        font-size: 1.5rem;
+    }
+
     .explorcont{
         margin: 10rem 0 0 0;
     }
@@ -339,7 +365,10 @@
         width: 90%;
     }
 
-
+    .vid{
+        margin-left: 3rem;
+    }
+    
     .vid2{
         float:initial;
         margin-top: 5rem;
@@ -348,7 +377,7 @@
 
     
     .aboutus{
-        align-self: center;
+       margin-left: 5rem;
     }
 
     .chooseus{
@@ -396,8 +425,17 @@
         font-size: 1.7rem;
     }
 
-    .counts{
-        /* margin-left: 2rem; */
+    .cards{
+        align-items: center;
+    }
+
+    .goldcrd{
+        margin-top: unset;
+    }
+
+    .primiumcrd{
+        margin-left: unset;
+        margin-bottom: 5rem;
     }
 }
 
