@@ -9,14 +9,6 @@ import Register from "../../Register page/Register";
 
 const Homepage = () => {
 
-    // let imges = document.querySelector(".trainers .imges span img");
-    
-    // const dragging = (e) => {
-    //   trainers.imges.scrollLeft = e.pageX;
-    // }
-
-    // imges.addEventListener("mousemove", dragging);
-
     const[isModalOpen, setIsModalOpen] = useState(false)
     
     const openModal = () => {
