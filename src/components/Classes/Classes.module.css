@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(17, 227, 206);
+    color: white;
     font-size: 2rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     margin-top: 6rem;
@@ -65,6 +65,10 @@
 }
 
 @media screen and (max-width: 1000px){
+
+    .heading{
+        margin-top: unset;
+    }
 
     .container1, .container2{
         display: flex;
