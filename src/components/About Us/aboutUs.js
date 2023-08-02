@@ -8,11 +8,12 @@ function AboutUs() {
         <h1>About Us</h1>
       </div>
 
-     <div classname={styles.container}>
+      <div className={styles.container}>
       <div className={styles.img}>
-        <img src="https://images.pexels.com/photos/2247179/pexels-photo-2247179.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+        <img src="https://images.pexels.com/photos/2247179/pexels-photo-2247179.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""/>
       </div>
 
+      
       <div className={styles.text}>
         <h2>Who we are</h2>
         <span>we will give you strength and Health</span>
@@ -27,8 +28,9 @@ function AboutUs() {
         </p>
         <button>Join Now</button>
       </div>
+      
       </div>
-
+      
       <div className={styles.cards}>
         <div className={styles.card1}>
           <h1>1K+ Members</h1>
@@ -60,8 +62,7 @@ function AboutUs() {
           <br />
           Our real success lies in the thousands of customers we've empowered to
           live longer, more joyful, and healthier lives. We're more than just a
-          fitness company – we're your partners in health, your cheerleaders on
-          the sideline, motivating you to reach your personal fitness goals.
+          fitness company – we're your partners in health
           Embrace the fitness journey with us and see how it transforms your
           world. Join us in our mission to improve lives through fitness and
           wellness, because at Gym and Fitness, your health is our passion.
