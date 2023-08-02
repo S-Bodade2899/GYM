@@ -13,10 +13,10 @@ const Footer = () => {
             <div className={styles.footercol}>
                 <h4>Healthy Living</h4>
                 <ul>
-                    <li><a></a>Nutrition Tips</li>
-                    <li><a></a>Fitness Advice</li>
-                    <li><a></a>Stress Reduction</li>
-                    <li><a></a>Disclaimer</li>
+                    <li>Nutrition Tips</li>
+                    <li>Fitness Advice</li>
+                    <li>Stress Reduction</li>
+                    <li>Disclaimer</li>
                 </ul>
             </div>
             <div className={styles.footercol}>
